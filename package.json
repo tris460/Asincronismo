@@ -1,0 +1,19 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "Ejercicios de práctica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "callback": "node ./index.js"
+  },
+  "keywords": [
+    "Callbacks",
+    "promise"
+  ],
+  "author": "Beatriz Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
