@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "callback": "node ./Callbacks/index.js",
     "callback:challenge": "node ./Callbacks/challengeR&M.js",
-    "callback:pokemon": "node ./Callbacks/challengePokeAPI.js"
+    "callback:pokemon": "node ./Callbacks/challengePokeAPI.js",
+    "promise": "node ./Promise/index.js"
   },
   "keywords": [
     "Callbacks",
