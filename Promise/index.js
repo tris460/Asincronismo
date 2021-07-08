@@ -35,3 +35,12 @@ const somethingWillHappen2 = () => {
 somethingWillHappen2()
     .then(response=>console.log(response))
     .catch(err=>console.error(err));
+
+//Obtenemos un arreglo con las respuestas de las funciones con promesas
+Promise.all([somethingWillHappen(), somethingWillHappen2()])
+    .then(response => {
+        console.log("Array de resultados de las promesas: ", response);
+    })
+    .catch(err => {
+        console.error(err)
+    })
