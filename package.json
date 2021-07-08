@@ -9,7 +9,8 @@
     "callback:challenge": "node ./Callbacks/challengeR&M.js",
     "callback:pokemon": "node ./Callbacks/challengePokeAPI.js",
     "promise": "node ./Promise/index.js",
-    "promise:challenge": "node ./Promise/challengeR.js"
+    "promise:challenge": "node ./Promise/challengeR.js",
+    "promise:pokemon": "node ./Promise/challengePokeAPI.js"
   },
   "keywords": [
     "Callbacks",
