@@ -6,11 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "callback": "node ./Callbacks/index.js",
-    "callback:challenge":"node ./Callbacks/challenge.js"
+    "callback:challenge": "node ./Callbacks/challengeR&M.js",
+    "callback:pokemon": "node ./Callbacks/challengePokeAPI.js"
   },
   "keywords": [
     "Callbacks",
-    "promise"
+    "promise",
+    "async"
   ],
   "author": "Beatriz Martinez",
   "license": "ISC",
