@@ -12,7 +12,8 @@
     "promise:challenge": "node ./Promise/challengeR.js",
     "promise:pokemon": "node ./Promise/challengePokeAPI.js",
     "async": "node ./Async/index.js",
-    "async:challenge": "node ./Async/challengeR.js"
+    "async:challenge": "node ./Async/challengeR.js",
+    "async:pokemon": "node ./Async/challengePokeAPI.js"
   },
   "keywords": [
     "Callbacks",
